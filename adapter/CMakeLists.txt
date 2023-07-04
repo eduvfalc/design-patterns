@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project(adapter)
+include_directories(include)
+include_directories(include/interfaces)
+add_executable(adapter src/main.cpp src/AssemblingFactory.cpp src/FactoryAdapter.cpp)
