@@ -4,7 +4,7 @@ SOURCE_DIR="$(pwd)"
 
 if [ -d "$BUILD_DIR" ]; then rm -rf $BUILD_DIR; fi
 mkdir -p $BUILD_DIR
-BUILD_DIR=$BUILD_DIR/release
+BUILD_DIR=$BUILD_DIR/out
 
 echo ${SOURCE_DIR}
 echo ${BUILD_DIR}
