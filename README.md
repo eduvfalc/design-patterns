@@ -1,2 +1,8 @@
 # design-patterns
-Sample C++ projects applying design patterns. To build the binary, run build.sh from the respective design pattern folder.
+Sample C++ projects applying design patterns. To build the respective design pattern application, run:
+
+```bash
+./build.sh -p <design-pattern>
+```
+
+The application can be found in the `/build` folder in the root of the workspace directory.
