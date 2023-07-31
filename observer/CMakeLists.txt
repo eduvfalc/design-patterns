@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project(observer)
+include_directories(include)
+include_directories(include/interfaces)
+add_executable(observer src/main.cpp src/Subject.cpp src/Observer.cpp)

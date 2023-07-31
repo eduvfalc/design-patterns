@@ -9,7 +9,7 @@ Options:
 }
 
 # available design patterns
-AVAILABLE_PATTERNS=("abstract-factory" "adapter")
+AVAILABLE_PATTERNS=("abstract-factory" "adapter" "observer")
 
 # checking if user input is --help
 if [ $1 == "--help" ] || [ $1 == "-h" ] ; then
