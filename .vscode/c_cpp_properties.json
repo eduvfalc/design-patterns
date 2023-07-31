@@ -3,7 +3,12 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/abstract-factory/include",
+                "${workspaceFolder}/abstract-factory/include/interfaces",
+                "${workspaceFolder}/adapter/include",
+                "${workspaceFolder}/adapter/include/interfaces",
+                "${workspaceFolder}/observer/include",
+                "${workspaceFolder}/observer/include/interfaces"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
